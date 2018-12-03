@@ -1,0 +1,9 @@
+# these are the other locations to look for source changes
+childPipelines:
+  scmUrls:
+    - git@github.com:d2lam/test-child.git
+jobs:
+  main:
+    image: node:6
+    steps:
+      - echo: echo hi
