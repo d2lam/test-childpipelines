@@ -7,3 +7,7 @@ jobs:
     image: node:6
     steps:
       - echo: echo hi
+    requires:
+      - ~pr
+      - ~commit
+  
