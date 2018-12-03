@@ -1,3 +1,6 @@
+childPipelines:	
+  scmUrls:	
+    - git@github.com:d2lam/test-child.git
 jobs:
   main:
     image: node:6
